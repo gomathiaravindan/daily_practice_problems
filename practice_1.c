@@ -1,3 +1,6 @@
+### Count the number of character for given n numbers written in a paper.
+sample case: n = 13, output: 17
+
 #include<stdio.h>
 int main()
 {
