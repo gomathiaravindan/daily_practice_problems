@@ -1,3 +1,9 @@
+### . You are given an input string S, You need to print the string in the below format
+Sample Case : Input : b3a8j13
+Output : bbbaaaaaaaajjjjjjjjjjjjj
+
+
+
 #include<stdio.h>
 #include<string.h>
 
