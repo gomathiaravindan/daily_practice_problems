@@ -1,3 +1,10 @@
+### Given 2 arrays main and sequence array. Check whether sequence is a subsequence of the main array. Print either true or false.
+Sample case: a = [5,1,22,25,6,-1,8,10], sequ = [5,1,6,-10]
+Output: false
+
+
+
+
 #include<stdio.h>
 
 int main()
