@@ -1,3 +1,8 @@
+### Find the index of first non-repeating character in a given string
+Sample case: leetcode 
+Output: 0
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
