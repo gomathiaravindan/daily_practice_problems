@@ -1,3 +1,8 @@
+### Sort the given the array based on the frequency of each element in descending order
+Sample Case: Input: 1 2 1 3 3 3
+Output: 3 3 3 1 1 2
+
+
 #include<stdio.h>
 int main()
 {
