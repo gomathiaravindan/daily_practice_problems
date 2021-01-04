@@ -21,7 +21,7 @@ int main()
 	int *arr_1 = (int*)calloc(max,sizeof(int));
 	for(i=1;i<=n;i++)
 	{
-		arr_1[arr[i]] = arr[i];
+		arr_1[arr[i]] = 1;
 	}
 	
   /*for(i=1;i<=max;i++)
