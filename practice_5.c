@@ -1,3 +1,8 @@
+### Given an array, find the minimum of all the greater numbers. 
+Sample Case: Input: n = 7, 2 3 7 1 5 8 11
+Output: {2>3, 3>5, 7>8, 1>2, 5>7, 8>11, 11}
+
+
 #include<stdio.h>
 int main()
 {
