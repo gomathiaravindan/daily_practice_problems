@@ -1,3 +1,8 @@
+Given 2 strings identify whether they are same by considering the '#' character as a backspace, for eg: ab#c will result in ac.
+Sample Case: Input: s = ab#c , t = #ab#c
+Output: True
+
+
 #include<stdio.h>
 #include<string.h>
 int max = 30;
