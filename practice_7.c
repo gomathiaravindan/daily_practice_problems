@@ -1,3 +1,8 @@
+### Given a string, reverse only the alphabets in the string.
+Sample Case: Input: 12Apple34
+Output: 12elppA34
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
