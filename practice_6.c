@@ -1,3 +1,12 @@
+### Two huge numbers are stored as a digits in separate arrays, calculate their sum and store the sum as digits in array.
+Sample Case: Input: n = 5
+1 2 3 4 5 n1 = 3
+1 2 3
+Output: 1 2 4 6 8
+
+
+
+
 #include<stdio.h>
 int main()
 {
