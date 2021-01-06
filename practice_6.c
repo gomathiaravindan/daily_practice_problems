@@ -51,35 +51,26 @@ int main()
 		for(i=n-1;i>=0;i--)
 		{
 			sum+=arr_1[i]+arr2[i];
-			if(sum <= 9)
-			{
-				res[i] = sum;
-				sum =0;
-			}
+			
 			if(i==0)
 			{
-				if(sum > 9)
-				{
-					break;
-				}
+				res[i] = sum;
 			
 			}
-			else if(sum >9)
+			 else
 			{
 				res[i] = sum%10;
 				sum = sum/10;
 				
 			}
 		}
-		res[i] = sum;
+		
 		
 			for(i=0;i<n;i++)
 	{
 		printf("%d ",res[i]);
 	}
-	free(arr2);
-	free(arr_1);
-	free(res);
+	
 	}
 
 		
@@ -89,34 +80,25 @@ int main()
 		for(i=n1-1;i>=0;i--)
 		{
 			sum+=arr_2[i]+arr2[i];
-			if(sum <= 9)
-			{
-				res[i] = sum;
-				sum =0;
-			}
+			
 			if(i==0)
 			{
-				if(sum > 9)
-				{
-					break;
-				}
+				res[i] = sum;
 			
 			}
-			else if(sum >9)
-			{
+			 
+			
 				res[i] = sum%10;
 				sum = sum/10;
 				
-			}
+			
 		}
-		res[i] = sum;
+		
 			for(i=0;i<n1;i++)
 	{
 		printf("%d ",res[i]);
 	}
-	free(res);
-	free(arr2);
-	free(arr_2);
+	
 		
 	}
 
@@ -126,37 +108,31 @@ int main()
 		for(i=n-1;i>=0;i--)
 		{
 			sum+=arr_1[i]+arr2[i];
-			if(sum <= 9)
-			{
-				res[i] = sum;
-				sum =0;
-			}
+			
 			if(i==0)
 			{
-				if(sum > 9)
-				{
-					break;
-				}
-			
+				res[i] = sum;
 			}
-			else if(sum >9)
-			{
+			 else
+			 {
 				res[i] = sum%10;
 				sum = sum/10;
-				
+			 }
 			}
 		}
-		res[i] = sum;
+		
 		
 			for(i=0;i<n;i++)
 	{
 		printf("%d ",res[i]);
 	}
-	free(arr2);
-	free(arr_1);
-	free(res);
+	
 	}
 	
+	free(arr2);
+	free(arr_1);
+	free(arr_2);
+	free(res);
 	
 
 	
