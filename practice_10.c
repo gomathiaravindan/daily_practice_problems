@@ -1,3 +1,12 @@
+### Given an array of integers, find the element which occur only once in a given array.
+Can you do without using so much memory?
+Sample Case: Input: 4 1 2 2 1
+Output: 4
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
