@@ -1,3 +1,11 @@
+### Find the second maximum element in the array.
+Sample Case: Input: 4 5 6 2 4
+Output: 5
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
