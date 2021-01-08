@@ -1,3 +1,14 @@
+### Right angled triangle.
+Sample Case: Input: 3
+Output: *
+	**
+	***
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
