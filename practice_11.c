@@ -1,3 +1,12 @@
+### Given a astring, check whether it is a plaindrome or not.
+Sample Case: Input: race car
+Output: Palindrome
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
