@@ -1,3 +1,11 @@
+###Print the pattern
+n = 3
+	3
+	33
+	333
+	33
+	3
+
 #include<stdio.h>
 int main()
 {
