@@ -23,6 +23,23 @@ int main()
 			}
 		}
 	}
+	else if(strlen(s1) >= strlen(s))
+	{
+	
+		for(i = strlen(s1)-1,j=strlen(s)-1; i>=0;)
+		{
+			if(s[i]==s1[j])
+			{
+				i--;
+				j--;
+			}
+			else if(s[i]!=s1[j])
+			{
+				count++;
+				i--;
+			}
+		}
+	}
 	if(count == 1)
    		printf("true");
    	else
