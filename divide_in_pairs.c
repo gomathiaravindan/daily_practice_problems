@@ -10,18 +10,36 @@ int main()
 		scanf("%d",&arr[i]);
 	}
 	
-	for(i=1;i<=n-1;i++)
+	for(i = 0,j=i+1;i<n,j<=n-1;)
 	{
-		if(arr[i]%arr[i-1] == 0 || arr[i-1]%arr[i]==0)
+		
+		 if(j==n-1)
 		{
-			res[j] = arr[i-1];
+		
+			 if(arr[i]%arr[j] == 0 || arr[j]%arr[i]==0)
+			{
+				res[k] = arr[i];
+				k++;
+				res[k] = arr[j];
+			}
+			i++;
+			j=0;
+			j = i+1;
+		}
+		else if(arr[i]%arr[j] == 0 || arr[j]%arr[i]==0)
+		{
+			res[k] = arr[i];
+			k++;
+			res[k] = arr[j];
+			i++;
 			j++;
-			res[j] = arr[i];
 		}
 		
+		else if(arr[i]%arr[j] != 0 || arr[j]%arr[i]!=0)
+			j++;
 	}
   	
-  	for(i=0;i<=j;i++)
+  	for(i=0;i<=k;i++)
   		printf("%d ",res[i]);
   }
   
