@@ -1,3 +1,9 @@
+Sample Case: Input: 1124
+Output: The given number is a spy number!!
+Explanation: The sum of the digits of a number is equal to the product of the number. 1+1+2+4 = 8 , 1*1*2*4 = 8 => 8 == 8
+
+
+
 #include<stdio.h>
 int main()
 {
