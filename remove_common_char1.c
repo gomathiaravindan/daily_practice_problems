@@ -1,3 +1,9 @@
+### Remove common from both the given string and modify the first string 
+Sample Case: Input: aabcd and bcgd
+Output: aag
+
+
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
