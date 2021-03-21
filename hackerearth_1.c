@@ -1,3 +1,21 @@
+### Bob's crush's name starts with a vowel. That's the reason Bob loves vowels too much. He calls a string "lovely string" if it contains either all the lowercase vowels or all the uppercase vowels or both, else he calls that string "ugly string". 
+
+### For more clarification, see the sample testcase explanation.
+
+
+Sample Case: Input
+
+3
+omahgoTuRuLob
+OmAhgotUrulobEI
+aeKORONAoiBATCHu
+
+Output
+ugly string
+lovely string
+lovely string
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
