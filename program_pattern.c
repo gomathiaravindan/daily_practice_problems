@@ -5,7 +5,7 @@ int main()
 	int i,j,mid = 0,k,count=0;
 	char str[40];
 	gets(str);
-	mid = (0 + strlen(str) - 1)/2;
+	mid = strlen(str)/2;
 	
 	for(i=strlen(str);i>=1;i--)
 	{
