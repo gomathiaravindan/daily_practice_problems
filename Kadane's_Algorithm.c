@@ -4,12 +4,6 @@ output 7 elements [ 4 -1 -2 1 5]
 
 
 
-
-
-
-
-
-
 #include<stdio.h>
 int main()
 {
