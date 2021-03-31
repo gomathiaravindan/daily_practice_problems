@@ -1,3 +1,21 @@
+## Print all the permutation of a string
+
+Sample Case: Input str = "ABC"
+Output:
+ ABC
+ ACB
+ BAC
+ BCA
+ CAB
+ CBA
+
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 
