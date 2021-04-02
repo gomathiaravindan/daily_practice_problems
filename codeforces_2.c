@@ -1,4 +1,12 @@
-/* C program for Merge Sort */
+## Sample Case: Input: 8 5
+1 1 1 1 1 1 1 1 
+Output: 5
+
+
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
