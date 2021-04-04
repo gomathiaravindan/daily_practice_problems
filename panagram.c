@@ -1,3 +1,16 @@
+## program to check whether a String is a Pangram or not. A string is a Pangram if the string contains all the English alphabet letters.
+Sample input: "The quick brown fox jumps over a lazy dog".
+Output : true
+
+Sample input: "The quick brown fox jumps".
+output : false
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
