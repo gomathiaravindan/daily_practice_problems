@@ -1,3 +1,13 @@
+## Convert the given string of integers to a whole number using RECURSION.
+Sample Case : Input :1234
+Output: 1234
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int sum = 0;
