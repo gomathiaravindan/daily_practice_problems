@@ -1,3 +1,9 @@
+## Find the next palindrome number for a given input
+Sample Case: Input 999
+Output 1001
+Input 1234
+Output 1331
+
 #include<stdio.h>
 #include<string.h>
 int main()
