@@ -1,3 +1,14 @@
+## Print each word in the new line of the string
+Sample Case: Input I love India
+Output 
+I 
+Love
+India
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
