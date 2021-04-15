@@ -1,3 +1,12 @@
+## C program to split an array from specified position and add first part to the end.
+Sample Case: Input 7 6 2 9
+Position: 3
+Output 9 7 6 2
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
