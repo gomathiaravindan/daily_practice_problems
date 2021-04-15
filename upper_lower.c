@@ -1,3 +1,17 @@
+## Given a word, you need to judge whether the usage of capitals in it is as follows.
+## All letters in this word are capitals. (Or)
+## All letters in this word are not captials, like "hello". (Or)
+## Only first letter is captial.
+Sample Case: Input GooGle
+Output False
+
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
