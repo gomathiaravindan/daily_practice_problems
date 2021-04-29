@@ -1,3 +1,15 @@
+## Print the pattern
+Sample Case: Input n = 5
+	*****
+	*   *
+	*   *
+	*   *
+	*****
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
