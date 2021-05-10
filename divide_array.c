@@ -1,3 +1,7 @@
+## Given an array A, divide it into two arrays say B and C, such that the sum of elements in array B is greater than or equal to the sum of elements in array C and array B should have a minimum number of elements.
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
