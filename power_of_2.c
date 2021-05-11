@@ -1,3 +1,6 @@
+## Find if Given number is power of 2 or not. More specifically, find if given number can be expressed as 2^k where k >= 1.
+
+
 #include<stdio.h>
 int main()
 {
