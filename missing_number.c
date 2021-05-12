@@ -1,3 +1,10 @@
+## In a given array , find the missing integer.
+Sample Case: Input = [1, 2, 4, 6, 3, 7, 8]
+Output 5
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
