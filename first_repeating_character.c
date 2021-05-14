@@ -1,3 +1,10 @@
+## Find the first repeating integer in an given array.
+Sample Case: Input arr[] = {10, 5, 3, 4, 3, 5, 6}
+Output 5
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
