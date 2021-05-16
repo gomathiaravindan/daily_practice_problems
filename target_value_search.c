@@ -1,3 +1,13 @@
+## Given a sorted array of distinct integers and a target value, return the index if the target is found. If the target is not found, then return the index where the target is to be inserted.
+Sample Case: Input = [1,3,5,6], target = 5
+Output: 2
+Input = [1,3,5,6], target = 2
+Output: 1
+
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
