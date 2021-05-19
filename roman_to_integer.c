@@ -1,3 +1,11 @@
+## Print the integer for the given roman numerals.
+Sample Case: Input: MMMDXLIX
+Output: 3549
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
