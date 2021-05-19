@@ -1,3 +1,12 @@
+## Given 4 types of coins like - pennies(1), nickels(5), dimes(10), pearl(25), and given the rupee. Calculate minimum of each number of coins required for the rupee.
+Sample Case: Input: 100
+Output: 0 pennies, 0 nickels, 0 dimes, and 4 pearls coins are required.
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
