@@ -1,3 +1,13 @@
+## Given an array of integers and integer b to search. If b is found, repeat the search until b value is not found. Give the b value.
+Sample Case: Input = [4, 2, 8, 16, 32, 64], b = 4
+Output: 128
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
