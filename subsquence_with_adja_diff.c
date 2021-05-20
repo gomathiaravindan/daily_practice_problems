@@ -1,8 +1,16 @@
+## Given an array. Find the maximum length of the subsequence with the difference between the adjacent elements is either 0 or 1.
+Sample Case: Input = [2, 5, 6, 3, 7, 6, 5 ,8]
+Output: 5
+The subsquence is- {5, 6, 7, 6, 5}
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
 {
-	int n,i,j,count = 0,max = 0,*arr,res[20],k = 0;
+	int n,i,j,*arr,res[20],k = 0;
 	printf("Enter the total number of elements:");
 	scanf("%d",&n);
 	
