@@ -1,3 +1,13 @@
+## Given the array with 0's and 1's, identify the row with maximum number of 1's.
+Sample Case: Input = [0 0 1 1
+		      0 1 1 1
+		      1 1 1 1
+		      0 0 0 0]
+Output: 2
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
