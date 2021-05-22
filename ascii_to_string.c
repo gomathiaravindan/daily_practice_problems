@@ -1,3 +1,9 @@
+## Given as ascii value to string.
+Sample Case: Input = "104101108108111443211911111410810033"
+Output: hello, world!
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
