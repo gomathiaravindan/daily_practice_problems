@@ -1,3 +1,10 @@
+## Given a string sort the characters at odd and even indices in decreasing and increasing order respectively.
+Sample Case: Input = ball
+Output: albl
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
