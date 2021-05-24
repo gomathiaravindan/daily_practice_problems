@@ -1,3 +1,11 @@
+## Given an array of strings sort each string at odd and even indices in decreasing and increasing order respectively. And finally sort the sort.
+Sample Case: Input = {"ball", "boy", "bat"}
+Output: albl, atb, byo
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -39,7 +47,7 @@ int main()
 	}
 	}
 	
-	for(i =  0;i<n;i++)
+	for(i =  0;i<n-1;i++)
 	{
 		if(str + i >= str + (i + 1))
 		{
