@@ -1,3 +1,11 @@
+## Given a string containing 0's and 1's, find the total number of 0(1+)0 patterns in the string and output it.
+Sample Case: Input: 0110111010
+Output: 3
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
