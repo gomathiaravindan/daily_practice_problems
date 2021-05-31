@@ -1,3 +1,5 @@
+## Given an integer array of size n, find the maximum of the minimum's of every window size in the array. Note that window size varies from 1 to n.
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
