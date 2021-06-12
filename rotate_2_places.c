@@ -1,3 +1,10 @@
+## Given two string, check whether the 2 strings are equal if the first string is rotated exactly 2 places in anti-clockwise direction.
+Sample Case: Input - string_1 = "amazon", string_2 = "azonam"
+Output: 1
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
