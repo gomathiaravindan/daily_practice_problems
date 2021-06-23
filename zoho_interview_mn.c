@@ -1,3 +1,14 @@
+## Given an array of integers and two integers m and n. Print the array in the following order
+1. All elements greater than n should be printed first
+2. All elements between the range of m and n should be printed second
+3. All elements less than m are printed third
+Sample Case: Input arr[] = {9,6,8,3,9,0,1,5,7,4}
+Output = {9,6,8,9,7,3,4,5,0,1}
+
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
